@@ -1,0 +1,12 @@
+{
+  "name": "@fish-local/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:start": "../node_modules/.bin/jest --colors"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

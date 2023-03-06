@@ -1,0 +1,22 @@
+{
+  "name": "fish-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fish-client/index.js",
+  "scripts": {
+    "test": "lerna run test:start --stream"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "fish-client",
+    "fish-server",
+    "fish-shared"
+  ],
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "lerna": "^4.0.0"
+  }
+}
